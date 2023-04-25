@@ -12,9 +12,9 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(20675514)
-API_HASH = '5a82ce3aa5e5345af178278f6536744d'
-BOT_TOKEN = '5514369553:AAGF693VbOxnv56L1hh96O25WMt3ZPszVUk'
+API_ID = int(679152851)
+API_HASH = '1f3b447d8dbec7377f0bf4cd79d07572'
+BOT_TOKEN = '1165877563:AAETbNUX88T-eOGYjes7u17e0abCcMqvZjs'
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -22,8 +22,8 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/153d6b252269bf10b58b9.jpg https://telegra.ph/file/8f47e51d61193fc2457d2.jpg https://telegra.ph/file/65edb774e93dc5e92ed0c.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [5739535897]
-CHANNELS = [-1001646992718]
+ADMINS = [967118481,2119203563]
+CHANNELS = [-1001633326523]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 auth_channel = environ.get('AUTH_CHANNEL')
@@ -31,12 +31,12 @@ AUTH_CHANNEL = -1001552415260
 AUTH_GROUPS = [int(admin) for admin in environ.get("AUTH_GROUPS", "").split()]
 
 # MongoDB information
-DATABASE_URI = "mongodb+srv://nithya:nithya@cluster0.exupnem.mongodb.net/?retryWrites=true&w=majority"
+DATABASE_URI = "mongodb+srv://wihanga:wihanga@cluster0.bgnzr.mongodb.net/?retryWrites=true&w=majority"
 DATABASE_NAME = "MongoDB"
 COLLECTION_NAME = 'Telegram_files'
 
 # Others
-LOG_CHANNEL = int(-1001799057674)
+LOG_CHANNEL = int(-1001274076937)
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'SECL4u')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
