@@ -1,13 +1,16 @@
 class script(object):
-    START_TXT = """𝙷𝙴𝙻𝙾 {},
-𝙼𝚈 𝙽𝙰𝙼𝙴 𝙸𝚂 <a href=https://t.me/{}>{}</a>, 𝙸 𝙲𝙰𝙽 𝙿𝚁𝙾𝚅𝙸𝙳𝙴 𝙼𝙾𝚅𝙸𝙴𝚂, 𝙹𝚄𝚂𝚃 𝙰𝙳𝙳 𝙼𝙴 𝚃𝙾 𝚈𝙾𝚄𝚁 𝙶𝚁𝙾𝚄𝙿 𝙰𝙽𝙳 𝙴𝙽𝙹𝙾𝚈 😍"""
+    START_TXT = """Hi {},
+I'm <a href=https://t.me/{}>{}</a>,  හායි සිංහල සබ් 25,000 කට අදික Telegram හී   විශාලතම  හා   ප්‍රථම  සිංහල සබ්ටයිල් බොට් එකට ඔබව සාදරෙන් පිලිගන්නවා 🙏 /n 
+මම ඉන්ලයින් ක්‍රමයට හා  auto filter විදිහට වැඩ කරන බොට් කෙනෙක්. ❤️ /n ඔයාට ඉන්ලයින් සර්ච් එක වගේම  බොට් එකට අදාල නම එවීම මගින් සබ් ගන්න පුලුවන් /n ඔයාට දැන ගන්න තියන දෙවල් බලන්න පහත  HELP බටන් එක යුස් කරන්න ❤️/n
+ ‼️සමහර සිරීස් වල සබ් ෆුල් සීසන් එකම එක සිප් එක්ක ඇති සබ් එක ගන්න කලින් එක බලලා ඉන්න/n   TV series එකක් නම් Season එකේ අංකෙත් S01 වගේ දෙන්න./n (එතකොට හොයාගන්න ලේසියි./n
+ කරුනාකර  filter  හරහා හො inline search  හරහා සබ් ගන්නවා නම් කතාවෙ නම පමනක් ඇතුලත් කරන්න වෙන කිසිවක් නැතුව /n @SSB_PROJECTS) """
     HELP_TXT = """ 𝙷𝙴𝚑  {}
 𝙷𝙴𝚁𝙴 𝙸𝚂 𝚃𝙷𝙴 𝙷𝙴𝙻𝙿 𝙵𝙾𝚁 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂."""
     ABOUT_TXT = """
 𝙷𝚎𝚛𝚎 𝚊𝚛𝚎 𝚜𝚘𝚖𝚎 𝚍𝚎𝚝𝚊𝚒𝚕𝚜 𝚢𝚘𝚞 𝚗𝚎𝚎𝚍 𝚝𝚘 𝚔𝚗𝚘𝚠.
 
 ✯ 𝙱𝙾𝚃 𝚃𝚈𝙿𝙴 : 𝙰𝚄𝚃𝙾𝙵𝙸𝙻𝚃𝙴𝚁 𝚅𝟹	
-✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href="https://t.me/SinhalaCryptoNews">Sinhala Crypto News 𝚂</a>
+✯ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 : <a href="https://t.me/Delta_Theta"> Delta Theta </a>
 ✯ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 : 𝙿𝚈𝚃𝙷𝙾𝙽3 
 ✯ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 : 𝙿𝚈𝚁𝙾𝙶𝚁𝙰𝙼 
 ✯ 𝙱𝚄𝙸𝙻𝙳 𝚂𝚃𝙰𝚃𝚄𝚂: 𝚟𝟹.𝟷.𝟷 [ 𝙱𝙴𝚃𝙰 ]
@@ -32,7 +35,7 @@ class script(object):
 𝟸. 𝙱𝚘𝚝 𝚜𝚞𝚙𝚙𝚘𝚛𝚝𝚜 𝚋𝚞𝚝𝚝𝚘𝚗𝚜 𝚠𝚒𝚝𝚑 𝚊𝚗𝚢 𝚝𝚎𝚕𝚎𝚐𝚛𝚊𝚖 𝚖𝚎𝚍𝚒𝚊 𝚝𝚢𝚙𝚎. 
 𝟹. 𝙱𝚞𝚝𝚝𝚘𝚗𝚜 𝚜𝚑𝚘𝚞𝚕𝚍 𝚋𝚎 𝚙𝚛𝚘𝚙𝚎𝚛𝚕𝚢 𝚙𝚊𝚛𝚜𝚎𝚍 𝚊𝚜 𝚖𝚊𝚛𝚔𝚍𝚘𝚠𝚗 𝚏𝚘𝚛𝚖𝚊𝚝
 <b>URL buttons:</b>
-<code>[Button Text](buttonurl:https://t.me/SECLK)</code>
+<code>[Button Text](buttonurl:https://t.me/Ssb_Projects)</code>
 <b>Alert buttons:</b>
 <code>[Button Text](buttonalert:This is an alert message, You should use @NETFLIXLKBOT to get Movies )</code>"""
     AUTOFILTER_TXT = """𝙷𝚎𝚕𝚙: <b>Auto Filter</b>
@@ -117,6 +120,6 @@ Loki S01E01 | You S03 | Wednesday S01 720p
     OWNER_INFO = """
 <b>⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : Sinhala Crypto News
-• ᴀʙᴏᴜᴛ : <a href='https://t.me/SinhalaCryptoNews'>Sinhala Crypto News</a>
-• ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/SinhalaFilms_LK'>Sinhala Crypto News</a></b>"""
+• ꜰᴜʟʟ ɴᴀᴍᴇ :Delta Theta
+• ᴀʙᴏᴜᴛ : <a href='https://t.me/about_delta_theta'>About Delta Theta</a>
+• ᴅᴍ ʟɪɴᴋ : <a href='https://t.me/delta_theta'>Delta_theta</a></b>"""
