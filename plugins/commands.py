@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/SinhalaCryptoNews')
+                InlineKeyboardButton('⚡ Updates Channel ⚡', url='https://t.me/SSB_PROJECTS')
             ],
             [
                 InlineKeyboardButton('Help❗️', url=f"https://t.me/{temp.U_NAME}?start=help"),
@@ -44,8 +44,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://t.me/SinhalaFilms_LK'),
-                    InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/SinhalaCryptoNews')
+                    InlineKeyboardButton('⚡ Updates Channel ⚡', url='https://t.me/SSB_PROJECTS'),
+                    InlineKeyboardButton('⚡ Support Group ⚡', url='https://t.me/SSB_PROJECTS_Discussion_Group')
                 ],[
                     InlineKeyboardButton('Help❗️', callback_data='help'),
                     InlineKeyboardButton('Aʙᴏᴜᴛ 😊', callback_data='about'),
@@ -91,8 +91,8 @@ async def start(client, message):
         buttons = [[
                     InlineKeyboardButton('➕ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘs ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('⚡ SUBSCᏒIBΞ ⚡', url='https://t.me/SinhalaFilms_LK'),
-                    InlineKeyboardButton('⚡ UᎮDΛTΞS ⚡', url='https://t.me/SinhalaCryptoNews')
+                    InlineKeyboardButton('⚡ Updates Channel ⚡', url='https://t.me/SSB_PROJECTS'),
+                    InlineKeyboardButton('⚡ Support Group ⚡', url='https://t.me/SSB_PROJECTS_Discussion_Group')
                 ],[
                     InlineKeyboardButton('Help❗️', callback_data='help'),
                     InlineKeyboardButton('Aʙᴏᴜᴛ 😊', callback_data='about'),
