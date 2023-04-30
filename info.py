@@ -12,7 +12,7 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(679152851)
+API_ID = int(2945595)
 API_HASH = '1f3b447d8dbec7377f0bf4cd79d07572'
 BOT_TOKEN = '1165877563:AAETbNUX88T-eOGYjes7u17e0abCcMqvZjs'
 
@@ -22,7 +22,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/153d6b252269bf10b58b9.jpg https://telegra.ph/file/8f47e51d61193fc2457d2.jpg https://telegra.ph/file/65edb774e93dc5e92ed0c.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [967118481,2119203563]
+ADMINS = [679152851,2119203563] 
 CHANNELS = [-1001633326523]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
