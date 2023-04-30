@@ -22,7 +22,7 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/gctyfug-04-23')).split()
 
 # Admins, Channels & Users
-ADMINS = [679152851,2119203563] 
+ADMINS = [679152851,2119203563,5994424562] 
 CHANNELS = [-1001633326523]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
